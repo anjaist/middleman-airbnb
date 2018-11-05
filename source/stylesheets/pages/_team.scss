@@ -1,0 +1,25 @@
+#team {
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  background-image: linear-gradient(0deg, #fff 50%, #F4F4F4 50%);
+  background-size: cover;
+  width: 100vw;
+  .img-circle {
+  width: 150px;
+  margin: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: #afafaf;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 28px;
+    padding: 20px 0;
+  }
+}
